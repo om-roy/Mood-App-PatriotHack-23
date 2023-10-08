@@ -472,7 +472,7 @@ ET SMALL, ACHIEVABLE GOALS FOR YOURSELF TO REGAIN A SENSE OF ACCOMPLISHMENT. THE
 </string>
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="13" name="HoltwoodOneSC"/>
+                                            <font key="NSFont" size="12" name="HoltwoodOneSC"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
