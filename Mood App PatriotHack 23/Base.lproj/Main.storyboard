@@ -53,9 +53,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAY-J7-PDs">
-                                <rect key="frame" x="224" y="218" width="144" height="168"/>
+                                <rect key="frame" x="218" y="218" width="150" height="168"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="img-jolly" imagePlacement="top">
+                                <buttonConfiguration key="configuration" style="plain" image="img-energetic" imagePlacement="top">
                                     <attributedString key="attributedTitle">
                                         <fragment content="ENERGETIC">
                                             <attributes>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa2-OZ-ePV">
-                                <rect key="frame" x="224" y="491" width="150" height="164"/>
+                                <rect key="frame" x="218" y="491" width="150" height="164"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="img-sad" imagePlacement="top">
                                     <attributedString key="attributedTitle">
