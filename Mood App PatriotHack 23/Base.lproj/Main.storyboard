@@ -16,11 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NU-MX-AY5">
-                                <rect key="frame" x="16" y="71" width="361" height="230"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NU-MX-AY5">
+                                <rect key="frame" x="16" y="12" width="361" height="323"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="HOW WAS your MOOO-D today?">
+                                    <fragment content="HOW WAS YOUR MOOO-D TODAY?">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="35" name="HoltwoodOneSC"/>
@@ -35,17 +34,597 @@
                                 </attributedString>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIO-gv-22u">
+                                <rect key="frame" x="25" y="218" width="144" height="168"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-jolly" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="JOLLY">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="w8y-dc-Tj7" kind="show" id="b2x-4Y-anx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAY-J7-PDs">
+                                <rect key="frame" x="224" y="218" width="144" height="168"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-jolly" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="ENERGETIC">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yNG-jf-fUV" kind="show" id="EhD-ki-7Xv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mo-Rj-SWA">
+                                <rect key="frame" x="25" y="490" width="144" height="165"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-anxious" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="ANXIOUS">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vaH-uh-tT5" kind="show" id="MpW-0W-8MU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa2-OZ-ePV">
+                                <rect key="frame" x="224" y="491" width="150" height="164"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-sad" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SAD">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XaM-vL-R0K" kind="show" id="fnz-oG-eZf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVo-ic-Nha">
+                                <rect key="frame" x="25" y="663" width="144" height="168"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-angry" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="ANGRY">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Jal-nT-ugv" kind="show" id="6Wk-fW-cBS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohT-zE-dxA">
+                                <rect key="frame" x="224" y="663" width="150" height="168"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="img-sleepy" imagePlacement="top">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SLEEPY">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="17" name="HoltwoodOneSC"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="eqP-av-HUk" kind="show" id="cYZ-rn-b4d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90980386729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="dIO-gv-22u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="218" id="B2N-0V-81S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aa2-OZ-ePV" secondAttribute="trailing" symbolic="YES" id="BZE-i9-0VV"/>
+                            <constraint firstItem="aa2-OZ-ePV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8mo-Rj-SWA" secondAttribute="trailing" constant="8" symbolic="YES" id="BmO-Au-3zb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pAY-J7-PDs" secondAttribute="trailing" constant="25" id="EPC-Zc-V4j"/>
+                            <constraint firstItem="cVo-ic-Nha" firstAttribute="leading" secondItem="8mo-Rj-SWA" secondAttribute="leading" id="EQI-ki-s7L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6NU-MX-AY5" secondAttribute="bottom" constant="517" id="JCO-bb-LWV"/>
+                            <constraint firstItem="aa2-OZ-ePV" firstAttribute="baseline" secondItem="8mo-Rj-SWA" secondAttribute="baseline" id="JWA-M5-Rw3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cVo-ic-Nha" secondAttribute="bottom" constant="21" id="LUE-hL-Osu"/>
+                            <constraint firstItem="cVo-ic-Nha" firstAttribute="leading" secondItem="dIO-gv-22u" secondAttribute="leading" id="O3P-73-R4V"/>
+                            <constraint firstItem="cVo-ic-Nha" firstAttribute="baseline" secondItem="ohT-zE-dxA" secondAttribute="baseline" id="P6b-yZ-J3X"/>
+                            <constraint firstItem="pAY-J7-PDs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dIO-gv-22u" secondAttribute="trailing" constant="8" symbolic="YES" id="Qf9-RZ-CTV"/>
+                            <constraint firstItem="dIO-gv-22u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="WKc-4M-mtH"/>
+                            <constraint firstItem="cVo-ic-Nha" firstAttribute="top" secondItem="8mo-Rj-SWA" secondAttribute="bottom" constant="8" symbolic="YES" id="YUZ-tj-rWr"/>
+                            <constraint firstItem="6NU-MX-AY5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="boS-gc-Xhe"/>
+                            <constraint firstItem="aa2-OZ-ePV" firstAttribute="leading" secondItem="pAY-J7-PDs" secondAttribute="leading" id="c5V-vo-XSl"/>
+                            <constraint firstItem="6NU-MX-AY5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hCP-VM-RJ2"/>
+                            <constraint firstItem="dIO-gv-22u" firstAttribute="baseline" secondItem="pAY-J7-PDs" secondAttribute="baseline" id="leR-FW-dXf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ohT-zE-dxA" secondAttribute="trailing" symbolic="YES" id="soJ-ry-Wug"/>
+                            <constraint firstItem="ohT-zE-dxA" firstAttribute="leading" secondItem="cVo-ic-Nha" secondAttribute="trailing" constant="55" id="uPy-yX-jj9"/>
+                            <constraint firstItem="6NU-MX-AY5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wLe-a5-4Rr"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="9X2-vO-Ze1" appends="YES" id="fdG-qh-yFX"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="CsC-BR-i3v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="9X2-vO-Ze1">
+                    <connections>
+                        <segue destination="Jw2-7e-GMg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hNb-21-IEl"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="75.572519083969468" y="-2.1126760563380285"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ofr-0R-Qil">
+            <objects>
+                <viewController id="w8y-dc-Tj7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qrL-FM-7Hz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4D-Kk-N4f">
+                                <rect key="frame" x="106" y="69" width="181" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NyN-8Y-eha"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="JOLLY">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1c-Nt-x2j">
+                                <rect key="frame" x="64" y="150" width="265" height="448"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">GLAD YOU ARE FEELING HAPPY AND CHEERY! 
+IT IS IMPORTANT TO FOCUS ON THE POSITIVE AND MAINTAIN A MERRY OUTLOOK ON LIFE.
+LAUGHTER IS A GREAT WAY TO STAY JOLLY, KEEP COOL AND RELAX!
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SPEND TIME WITH PEOPLE WHO UPLIFT YOU AND RADIATE POSITIVITY. POSITIVE ENERGY IS CONTAGIOUS.">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-jolly" translatesAutoresizingMaskIntoConstraints="NO" id="bfB-VS-80w">
+                                <rect key="frame" x="136.66666666666666" y="617" width="119.66666666666666" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MMH-tM-aXQ"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="L1c-Nt-x2j" firstAttribute="leading" secondItem="MMH-tM-aXQ" secondAttribute="leading" constant="64" id="3yp-Qn-kfc"/>
+                            <constraint firstItem="u4D-Kk-N4f" firstAttribute="centerX" secondItem="qrL-FM-7Hz" secondAttribute="centerX" id="KRv-G5-8yY"/>
+                            <constraint firstItem="u4D-Kk-N4f" firstAttribute="leading" secondItem="MMH-tM-aXQ" secondAttribute="leading" constant="106" id="Kv4-Nv-uCA"/>
+                            <constraint firstItem="MMH-tM-aXQ" firstAttribute="trailing" secondItem="L1c-Nt-x2j" secondAttribute="trailing" constant="64" id="LJO-vD-nSM"/>
+                            <constraint firstItem="MMH-tM-aXQ" firstAttribute="bottom" secondItem="bfB-VS-80w" secondAttribute="bottom" constant="97" id="LwI-gC-sZ4"/>
+                            <constraint firstItem="u4D-Kk-N4f" firstAttribute="top" secondItem="MMH-tM-aXQ" secondAttribute="top" constant="69" id="PWO-Qw-9pu"/>
+                            <constraint firstItem="bfB-VS-80w" firstAttribute="leading" secondItem="MMH-tM-aXQ" secondAttribute="leading" constant="136.66666666666663" id="Q52-11-tsW"/>
+                            <constraint firstItem="bfB-VS-80w" firstAttribute="centerX" secondItem="qrL-FM-7Hz" secondAttribute="centerX" id="U6z-0J-dBn"/>
+                            <constraint firstItem="L1c-Nt-x2j" firstAttribute="top" secondItem="u4D-Kk-N4f" secondAttribute="bottom" constant="31" id="dCL-Fd-JbL"/>
+                            <constraint firstItem="bfB-VS-80w" firstAttribute="top" secondItem="L1c-Nt-x2j" secondAttribute="bottom" constant="19" id="kkS-GV-qec"/>
+                            <constraint firstItem="MMH-tM-aXQ" firstAttribute="bottom" secondItem="L1c-Nt-x2j" secondAttribute="bottom" constant="244" id="vGW-FA-71i"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VTO-ED-TTz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Y2-jQ-H0T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785.49618320610682" y="-2.1126760563380285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="etE-PK-NhQ">
+            <objects>
+                <viewController id="yNG-jf-fUV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4G4-vi-UDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZc-lY-ysu">
+                                <rect key="frame" x="53" y="69" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="ENERGETIC">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc6-xW-1GL">
+                                <rect key="frame" x="64" y="172" width="265" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">TO FULLY EMBRACE YOUR EXCITEMENT, TRY TO STAY PRESENT IN THE MOMENT. AVOID DISTRACTIONS AND BE MINDFUL OF WHAT YOU'RE EXPERIENCING RIGHT NOW.
+SHARE YOUR EXCITEMENT WITH OTHERS. WHETHER IT'S WITH FRIENDS, FAMILY, OR COLLEAGUES, EXPRESSING YOUR EXCITEMENT CAN ENHANCE THE JOY OF THE MOMENT AND CREATE CONNECTIONS WITH OTHERS WHO SHARE YOUR ENTHUSIASM!</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-energetic" translatesAutoresizingMaskIntoConstraints="NO" id="U9v-ie-zBh">
+                                <rect key="frame" x="137" y="628" width="119.66666666666663" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1pD-xr-y8B"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4ji-k7-GzJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vn3-Ye-Z8A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="665.49295774647885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bcC-JD-FE2">
+            <objects>
+                <viewController id="vaH-uh-tT5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UQO-dy-fI6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEb-7q-1dv">
+                                <rect key="frame" x="53" y="69" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="ANXIOUS">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyH-Fo-1zg">
+                                <rect key="frame" x="64" y="158" width="265" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">TECHNIQUES LIKE DEEP BREATHING EXERCISES, MEDITATION, AND PROGRESSIVE MUSCLE RELAXATION CAN HELP CALM YOUR MIND AND REDUCE ANXIETY
+PHYSICAL ACTIVITY RELEASES ENDORPHINS, WHICH CAN IMPROVE MOOD AND REDUCE ANXIETY. AIM FOR AT LEAST 30 MINUTES OF MODERATE EXERCISE MOST DAYS OF THE WEEK</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-anxious" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-Ht-VLP">
+                                <rect key="frame" x="137" y="624" width="119.66666666666663" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nKC-aE-XBQ"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sa7-md-eu4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3d-tv-BXJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="665"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H5Z-XJ-lxr">
+            <objects>
+                <viewController id="Jal-nT-ugv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6sQ-7S-gVN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-Uy-lS8">
+                                <rect key="frame" x="53" y="69" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="ANGRY">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlU-yY-hXa">
+                                <rect key="frame" x="64" y="145" width="265" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">DEALING WITH ANGER IN A HEALTHY AND CONSTRUCTIVE WAY IS CRUCIAL FOR MAINTAINING POSITIVE RELATIONSHIPS AND WELL-BEING 
+WHEN YOU FEEL ANGER RISING, TAKE A MOMENT TO PAUSE AND STEP AWAY FROM THE SITUATION. THIS CAN GIVE YOU SOME BREATHING ROOM TO COOL DOWN AND THINK MORE CLEARLY
+IF YOU'RE IN A CONFLICT, MAKE AN EFFORT TO LISTEN TO THE OTHER PERSON'S PERSPECTIVE. UNDERSTANDING THEIR POINT OF VIEW CAN LEAD TO A MORE PRODUCTIVE CONVERSATION</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-angry" translatesAutoresizingMaskIntoConstraints="NO" id="f3B-Sp-AcP">
+                                <rect key="frame" x="137" y="601" width="119.66666666666652" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gyG-NW-UHA"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NJP-Ae-noh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cP-3t-59s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fLv-mj-BRt">
+            <objects>
+                <viewController id="XaM-vL-R0K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zlb-yp-22F">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3t-dt-6fL">
+                                <rect key="frame" x="53" y="69" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="SAD">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kd7-X6-hqS">
+                                <rect key="frame" x="64" y="147" width="265" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">THE FIRST STEP IN DEALING WITH SADNESS IS TO ACKNOWLEDGE AND ACCEPT YOUR FEELINGS. IT'S OKAY TO FEEL SAD, AND IT'S A NORMAL EMOTION THAT EVERYONE EXPERIENCES FROM TIME TO TIME
+SHARE YOUR FEELINGS WITH SOMEONE YOU TRUST, WHETHER IT'S A FRIEND, FAMILY MEMBER, OR THERAPIST. TALKING ABOUT YOUR EMOTIONS CAN PROVIDE RELIEF AND SUPPORT
+ET SMALL, ACHIEVABLE GOALS FOR YOURSELF TO REGAIN A SENSE OF ACCOMPLISHMENT. THESE GOALS CAN BE AS SIMPLE AS GETTING OUT OF BED AT A SPECIFIC TIME OR COMPLETING A SMALL TASK.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-sad" translatesAutoresizingMaskIntoConstraints="NO" id="xc3-Rg-itg">
+                                <rect key="frame" x="137" y="603" width="119.66666666666652" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v3A-xU-aTn"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jZf-1c-868"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QHu-eg-iLI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505" y="665"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Oe3-ZK-1Uy">
+            <objects>
+                <viewController id="eqP-av-HUk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z71-D6-7tl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-Yb-Tlh">
+                                <rect key="frame" x="53" y="69" width="287" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="SLEEPY">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HoltwoodOneSC"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZM-mZ-5yx">
+                                <rect key="frame" x="74" y="155" width="265" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Dehydration can contribute to feelings of fatigue. Drink a glass of water to stay hydrated
+Pop some caffeine like coffee or tea to gain a temporary energy boost
+Take a Power Nap if possible</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-sleepy" translatesAutoresizingMaskIntoConstraints="NO" id="bhv-j7-tHR">
+                                <rect key="frame" x="137" y="609" width="119.66666666666652" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o3i-Ca-P2z"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OBK-t2-cm9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzF-vJ-rl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2219" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ttq-4R-C3t">
+            <objects>
+                <viewController id="Jw2-7e-GMg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qYW-Yl-bi3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fu-Gv-QYY">
+                                <rect key="frame" x="16" y="12" width="361" height="323"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="HOW WAS YOUR MOOO-D TODAY?">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="35" name="HoltwoodOneSC"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" name="AccentColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="leading" contentVerticalAlignment="top" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="line" placeholder="JOURNAL ENTRY HERE" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="2F4-qz-wZN">
+                                <rect key="frame" x="39" y="270" width="315" height="540"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5ED-C4-oaa"/>
+                        <color key="backgroundColor" red="0.53725492949999998" green="0.57254904510000004" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2F4-qz-wZN" firstAttribute="leading" secondItem="5ED-C4-oaa" secondAttribute="leading" constant="39" id="7NJ-pR-RgY"/>
+                            <constraint firstItem="5Fu-Gv-QYY" firstAttribute="top" secondItem="5ED-C4-oaa" secondAttribute="top" constant="12" id="89P-bZ-vaL"/>
+                            <constraint firstItem="2F4-qz-wZN" firstAttribute="centerX" secondItem="5Fu-Gv-QYY" secondAttribute="centerX" id="afL-WI-jS5"/>
+                            <constraint firstItem="2F4-qz-wZN" firstAttribute="top" secondItem="5ED-C4-oaa" secondAttribute="top" constant="270" id="bW5-19-da2"/>
+                            <constraint firstItem="5Fu-Gv-QYY" firstAttribute="leading" secondItem="qYW-Yl-bi3" secondAttribute="leadingMargin" id="ny3-SZ-bl8"/>
+                            <constraint firstItem="5ED-C4-oaa" firstAttribute="bottom" secondItem="2F4-qz-wZN" secondAttribute="bottom" constant="42" id="quc-Cf-m8Z"/>
+                            <constraint firstItem="5ED-C4-oaa" firstAttribute="bottom" secondItem="5Fu-Gv-QYY" secondAttribute="bottom" constant="517" id="sT6-T1-aYb"/>
+                            <constraint firstItem="5Fu-Gv-QYY" firstAttribute="trailing" secondItem="qYW-Yl-bi3" secondAttribute="trailingMargin" id="xwa-NL-ney"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="l6m-eu-n9e" appends="YES" id="nHb-M2-6t4"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="edd-WH-pDU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mOd-dU-SrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="l6m-eu-n9e">
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="lvX-sX-cR4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2216.030534351145" y="664.78873239436621"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="img-angry" width="120" height="134"/>
+        <image name="img-anxious" width="120" height="131"/>
+        <image name="img-energetic" width="126" height="134"/>
+        <image name="img-jolly" width="120" height="134"/>
+        <image name="img-sad" width="126" height="130"/>
+        <image name="img-sleepy" width="126" height="134"/>
         <namedColor name="AccentColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
