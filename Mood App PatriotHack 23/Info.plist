@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ATSApplicationFontsPath</key>
+	<string>/Users/omroy/Documents/GMU/23-24/Fall 2023/Hackathon/Mood App PatriotHack 23/Mood App PatriotHack 23/Fonts</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HoltwoodOneSC-Regular.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

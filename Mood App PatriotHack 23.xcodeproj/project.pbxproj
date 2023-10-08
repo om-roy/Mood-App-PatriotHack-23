@@ -16,6 +16,7 @@
 		4DCE786C2AD265C5009C7C4D /* Mood_App_PatriotHack_23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE786B2AD265C5009C7C4D /* Mood_App_PatriotHack_23Tests.swift */; };
 		4DCE78762AD265C5009C7C4D /* Mood_App_PatriotHack_23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE78752AD265C5009C7C4D /* Mood_App_PatriotHack_23UITests.swift */; };
 		4DCE78782AD265C5009C7C4D /* Mood_App_PatriotHack_23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE78772AD265C5009C7C4D /* Mood_App_PatriotHack_23UITestsLaunchTests.swift */; };
+		4DCE78872AD26C37009C7C4D /* HoltwoodOneSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE78862AD26C37009C7C4D /* HoltwoodOneSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4DCE78712AD265C5009C7C4D /* Mood App PatriotHack 23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood App PatriotHack 23UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCE78752AD265C5009C7C4D /* Mood_App_PatriotHack_23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_App_PatriotHack_23UITests.swift; sourceTree = "<group>"; };
 		4DCE78772AD265C5009C7C4D /* Mood_App_PatriotHack_23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_App_PatriotHack_23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DCE78862AD26C37009C7C4D /* HoltwoodOneSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoltwoodOneSC-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4DCE785D2AD265C5009C7C4D /* Assets.xcassets */,
 				4DCE785F2AD265C5009C7C4D /* LaunchScreen.storyboard */,
 				4DCE78622AD265C5009C7C4D /* Info.plist */,
+				4DCE78852AD26B27009C7C4D /* Fonts */,
 			);
 			path = "Mood App PatriotHack 23";
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				4DCE78772AD265C5009C7C4D /* Mood_App_PatriotHack_23UITestsLaunchTests.swift */,
 			);
 			path = "Mood App PatriotHack 23UITests";
+			sourceTree = "<group>";
+		};
+		4DCE78852AD26B27009C7C4D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE78862AD26C37009C7C4D /* HoltwoodOneSC-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCE78872AD26C37009C7C4D /* HoltwoodOneSC-Regular.ttf in Resources */,
 				4DCE78612AD265C5009C7C4D /* LaunchScreen.storyboard in Resources */,
 				4DCE785E2AD265C5009C7C4D /* Assets.xcassets in Resources */,
 				4DCE785C2AD265C3009C7C4D /* Main.storyboard in Resources */,
@@ -368,6 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mooo-d";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -425,6 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mooo-d";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -445,6 +459,7 @@
 				DEVELOPMENT_TEAM = ZD2R9VK299;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mood App PatriotHack 23/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mooo-d";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +488,7 @@
 				DEVELOPMENT_TEAM = ZD2R9VK299;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mood App PatriotHack 23/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mooo-d";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
